@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 prs = Presentation()
 #import the transposed omics expression data
-df = pd.read_csv('./datas/Transpose.csv')
+df = pd.read_csv('./datas/omic_expression_transpose.csv.csv')
 # Extract the numeric values from the DataFrame
 numeric_data = df.iloc[1:, 1:].values
 scaler = StandardScaler()
